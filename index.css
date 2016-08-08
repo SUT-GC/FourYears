@@ -20,13 +20,13 @@
 #ul_main .div_eachScreen{
 }
 #ul_main li:nth-child(1){
-	background-color: #f00;
+	background: url("images/QixiA.png");
 }
 #ul_main li:nth-child(2){
-	background-color: #0f0;
+	background: url("images/QixiB-bright.png");
 }
 #ul_main li:nth-child(3){
-	background-color: #00f;
+	background: url("images/QixiC.png");
 }
 
 /*测试*/
