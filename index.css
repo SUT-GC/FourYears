@@ -16,18 +16,35 @@
 	list-style-type: none;
 	float: left;
 	position: relative;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 #ul_main .div_eachScreen{
 }
 #ul_main li:nth-child(1){
-	background: url("images/QixiA.png");
+	background-image: url("images/QixiA.png");
 }
 #ul_main li:nth-child(2){
-	background: url("images/QixiB-bright.png");
+	background-image: url("images/QixiB-bright.png");
 }
 #ul_main li:nth-child(3){
 	background: url("images/QixiC.png");
 }
+
+/*背景图*/
+
+
+.charector {
+    width: 151px;
+    height: 291px;
+    background: url(http://img.mukewang.com/55ade248000198ae10550582.png) -0px -291px no-repeat;
+    position: absolute;
+    /	* 设置一个元素的坐标 */
+    left: 6%;
+    top: 55%;
+}
+
+
 
 /*测试*/
 .test_button{
